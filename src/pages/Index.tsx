@@ -1,12 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from "react";
+import Header from "@/components/Header";
+import About from "@/components/About";
+import TechSpecs from "@/components/TechSpecs";
+import ContactForm from "@/components/ContactForm";
+import ContactInfo from "@/components/ContactInfo";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen bg-slate-50">
+      <Header />
+      <main className="max-w-4xl mx-auto py-8 px-4">
+        <About />
+        <TechSpecs />
+        <ContactForm />
+        <ContactInfo />
+      </main>
+      <Footer />
     </div>
   );
 };
