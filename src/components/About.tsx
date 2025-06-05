@@ -52,6 +52,19 @@ const About = () => {
           ))}
         </div>
       </div>
+
+      <div className="bg-white rounded-lg shadow-lg p-6">
+        <h3 className="text-xl font-semibold text-slate-700 mb-4 font-montserrat text-center">
+          Проект поддержан:
+        </h3>
+        <div className="flex justify-center items-center">
+          <img
+            src="https://cdn.poehali.dev/files/90bc1c88-9a11-45cf-bb2a-d5b64cf03bcc.png"
+            alt="Фонд содействия инновациям"
+            className="h-20 object-contain"
+          />
+        </div>
+      </div>
     </section>
   );
 };
